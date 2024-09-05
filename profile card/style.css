@@ -1,0 +1,58 @@
+body{
+    background-image: url(./images/bg-pattern-bottom.svg);
+    background-color: #00bfff;
+}
+
+.container{
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    background-image: url(./images/bg-pattern-card.svg);
+    width: 280px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+    flex-basis: content;
+    border-image: fill;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: 30px;
+
+}
+
+.ima{
+    border-image: round;
+    border-image-repeat: round;
+    border-inline-color: white;
+    padding: 40px 4opx 0px 40px;
+    border-radius: 50%;
+    border-color: beige;
+    overflow: hidden;
+    box-shadow: inset;
+    top: 12px;
+    mask-image: inherit;
+    image-rendering: pixelated;
+    image-orientation: flip; 
+    
+}
+
+.start{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.header{
+        background-color: rgba(245, 245, 245, 0.767);
+        margin-top: 40px;
+        display: flexbox;
+        width: 290px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        background-blend-mode: soft-light;
+}
